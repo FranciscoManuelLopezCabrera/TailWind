@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Fuentes*/
+@font-face {
+    font-family: "Doom";
+    src: url('DooM.ttf');
+}
+
+.fuenteDoom{
+    font-family: "Doom";
+}
