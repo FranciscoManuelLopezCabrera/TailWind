@@ -6,6 +6,8 @@
 @font-face {
     font-family: "Doom";
     src: url('DooM.ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .fuenteDoom{
