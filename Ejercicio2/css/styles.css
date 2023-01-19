@@ -595,6 +595,25 @@ video {
   border-color: rgba(229, 231, 235, var(--tw-border-opacity));
 }
 
+@font-face{
+  font-family: "WebSymbolsRegular";
+
+  src: url('../css/fonts/websymbols-regular-webfont.eot');
+
+  src: url('../css/fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../css/fonts/websymbols-regular-webfont.woff') format('woff'),
+         url('../css/fonts/websymbols-regular-webfont.ttf') format('truetype'),
+         url('../css/fonts/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
+.symbol{
+  font-family: "WebSYmbolsRegular";
+}
+
 .container {
   width: 100%;
 }
@@ -9966,6 +9985,12 @@ video {
   }
 }
 
+@keyframes zooming {
+  0%, 100% {
+    transform: scale(1.5);
+  }
+}
+
 .animate-none {
   animation: none;
 }
@@ -9984,6 +10009,10 @@ video {
 
 .animate-bounce {
   animation: bounce 1s infinite;
+}
+
+.animate-zooming-letra {
+  animation: zooming 1s;
 }
 
 .cursor-auto {
@@ -40588,6 +40617,10 @@ video {
     animation: bounce 1s infinite;
   }
 
+  .sm\:animate-zooming-letra {
+    animation: zooming 1s;
+  }
+
   .sm\:cursor-auto {
     cursor: auto;
   }
@@ -70836,6 +70869,10 @@ video {
 
   .md\:animate-bounce {
     animation: bounce 1s infinite;
+  }
+
+  .md\:animate-zooming-letra {
+    animation: zooming 1s;
   }
 
   .md\:cursor-auto {
@@ -101088,6 +101125,10 @@ video {
     animation: bounce 1s infinite;
   }
 
+  .lg\:animate-zooming-letra {
+    animation: zooming 1s;
+  }
+
   .lg\:cursor-auto {
     cursor: auto;
   }
@@ -131338,6 +131379,10 @@ video {
     animation: bounce 1s infinite;
   }
 
+  .xl\:animate-zooming-letra {
+    animation: zooming 1s;
+  }
+
   .xl\:cursor-auto {
     cursor: auto;
   }
@@ -161586,6 +161631,10 @@ video {
 
   .\32xl\:animate-bounce {
     animation: bounce 1s infinite;
+  }
+
+  .\32xl\:animate-zooming-letra {
+    animation: zooming 1s;
   }
 
   .\32xl\:cursor-auto {
