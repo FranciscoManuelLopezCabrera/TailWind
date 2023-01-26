@@ -9985,9 +9985,19 @@ video {
   }
 }
 
-@keyframes zooming {
-  0%, 100% {
-    transform: scale(1.5);
+@keyframes moverTexto {
+  0%, 25% {
+    transform: translateX(0);;
+  }
+
+  75%, 100% {
+    transform: translateX(-100);;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
   }
 }
 
@@ -10011,8 +10021,12 @@ video {
   animation: bounce 1s infinite;
 }
 
-.animate-zooming-letra {
-  animation: zooming 1s;
+.animate-mover-letra {
+  animation: moverTexto;
+}
+
+.animate-spin-slow {
+  animation: spin 2s linear infinite;
 }
 
 .cursor-auto {
@@ -40617,8 +40631,12 @@ video {
     animation: bounce 1s infinite;
   }
 
-  .sm\:animate-zooming-letra {
-    animation: zooming 1s;
+  .sm\:animate-mover-letra {
+    animation: moverTexto;
+  }
+
+  .sm\:animate-spin-slow {
+    animation: spin 2s linear infinite;
   }
 
   .sm\:cursor-auto {
@@ -70871,8 +70889,12 @@ video {
     animation: bounce 1s infinite;
   }
 
-  .md\:animate-zooming-letra {
-    animation: zooming 1s;
+  .md\:animate-mover-letra {
+    animation: moverTexto;
+  }
+
+  .md\:animate-spin-slow {
+    animation: spin 2s linear infinite;
   }
 
   .md\:cursor-auto {
@@ -101125,8 +101147,12 @@ video {
     animation: bounce 1s infinite;
   }
 
-  .lg\:animate-zooming-letra {
-    animation: zooming 1s;
+  .lg\:animate-mover-letra {
+    animation: moverTexto;
+  }
+
+  .lg\:animate-spin-slow {
+    animation: spin 2s linear infinite;
   }
 
   .lg\:cursor-auto {
@@ -131379,8 +131405,12 @@ video {
     animation: bounce 1s infinite;
   }
 
-  .xl\:animate-zooming-letra {
-    animation: zooming 1s;
+  .xl\:animate-mover-letra {
+    animation: moverTexto;
+  }
+
+  .xl\:animate-spin-slow {
+    animation: spin 2s linear infinite;
   }
 
   .xl\:cursor-auto {
@@ -161633,8 +161663,12 @@ video {
     animation: bounce 1s infinite;
   }
 
-  .\32xl\:animate-zooming-letra {
-    animation: zooming 1s;
+  .\32xl\:animate-mover-letra {
+    animation: moverTexto;
+  }
+
+  .\32xl\:animate-spin-slow {
+    animation: spin 2s linear infinite;
   }
 
   .\32xl\:cursor-auto {

@@ -4,14 +4,14 @@ module.exports = {
   theme: {
     extend: {
       keyframes: {
-        zooming: {
-          "0%, 100%": {
-            transform: "scale(1.5)",
-          },
+        moverTexto: {
+          "0%, 25%": { transform: "translateX(0);" },
+          "75%, 100%": { transform: "translateX(-100);"},
         },
       },
       animation: {
-        "zooming-letra": "zooming 1s",
+        "mover-letra": "moverTexto",
+        "spin-slow":"spin 2s linear infinite"
       },
     },
   },
