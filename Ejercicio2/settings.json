@@ -1,0 +1,15 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "git.ignoreMissingGitWarning": true,
+    "workbench.editor.untitled.hint": "hidden",
+    "files.autoSave": "afterDelay",
+    "tabnine.experimentalAutoImports": true,
+    "maven.executable.path": "c:\\Desarollo\\apache-maven-3.8.4\\bin\\mvn.cmd"
+}
