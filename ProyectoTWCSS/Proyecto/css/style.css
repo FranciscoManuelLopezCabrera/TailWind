@@ -546,72 +546,32 @@ video {
   height: auto;
 }
 
-body {
-  background-image: url("../img/pattern.png");
-}
-
 @font-face {
-  font-family: "WebSymbolsRegular";
+  font-family: "Brush";
 
-  src: url('../css/fonts/websymbols-regular-webfont.eot');
-
-  src: url('../css/fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
-            url('../css/fonts/websymbols-regular-webfont.woff') format('woff'),
-            url('../css/fonts/websymbols-regular-webfont.ttf') format('truetype'),
-            url('../css/fonts/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+  src: url('/css/fonts/Brush.otf');
 
   font-weight: normal;
 
   font-style: normal;
 }
 
-.gear,
-    .icon {
-  font-family: "WebSymbolsRegular";
+.brushFont {
+  font-family: "Brush";
 }
 
 @font-face {
-  font-family: "BebasNeue";
+  font-family: Lous;
 
-  src: url('fonts/BebasNeue.otf');
+  src: url('/css/fonts/Lous.otf');
 
   font-weight: normal;
 
   font-style: normal;
 }
 
-#header {
-  font-family: "BebasNeue";
-}
-
-#banner {
-  background: url("../img/bakbaner.png");
-  background-position: -200px -200px;
-}
-
-#banner h1 {
-  font-family: 'BebasNeue';
-}
-
-@font-face {
-  font-family: "TrebuchetMS";
-
-  src: url('fonts/TrebuchetMS.ttf');
-
-  font-weight: normal;
-
-  font-style: normal;
-}
-
-.card .category {
-  font-family: "TrebuchetMS";
-}
-
-.card .description {
-  font-family: "TrebuchetMS";
-}
-
-#cards{
+.lousFont{
+  font-family: "Lous";
 }
 
 .container {

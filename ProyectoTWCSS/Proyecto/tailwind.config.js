@@ -71,6 +71,8 @@ module.exports = {
           to: { transform: "translateX(0%)" },
         },
       },
+
+      
       
       animation: {
         rotategear: "rotateGear 2s infinite linear",
@@ -82,6 +84,7 @@ module.exports = {
         showcategory: "showCategory 400ms linear",
         showdescription: "showDescription 400ms linear",
       },
+      
     },
   },
 };
