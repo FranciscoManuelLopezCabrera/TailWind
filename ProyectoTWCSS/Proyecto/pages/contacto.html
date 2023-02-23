@@ -10,7 +10,7 @@
 
 <!--Header-->
 
-<body>
+<body class="no-scrollbar">
     <nav class="relative px-4 py-4 flex justify-between items-center bg-white">
         <a class="text-3xl font-bold leading-none" href="/pages/principal2.html">
             <p class="brushFont text-4xl">📖 TodoDocumentos</p>
@@ -23,7 +23,7 @@
             </button>
         </div>
         <ul
-            class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
+            class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
             <li><a class="text-sm text-gray-700 hover:text-gray-500" href="principal2.html">Sobre nosotros</a></li>
             <li class="text-gray-300">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
@@ -56,10 +56,12 @@
                         d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
                 </svg>
             </li>
-            <li><a class="text-sm text-gray-700 hover:text-gray-500" href="contacto.html">Contacto</a></li>
+            <li><a class="text-sm text-blue-700 hover:text-gray-500" href="contacto.html">Contacto</a></li>
         </ul>
-        <a class="hidden lg:inline-block lg:ml-auto lg:mr-3"
-            href="usuario.html"><img src="/img/perfil.png" width="60px"></a>
+        <a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-gray-100  text-sm text-gray-900 font-bold  rounded-xl"
+        href="usuario.html">Paquito</a>
+        <a class="hidden lg:inline-block lg:mr-3" href="usuario.html"><img src="/img/perfil.png"
+                width="60px"></a>
     </nav>
     <div class="navbar-menu relative z-50 hidden">
         <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
@@ -100,6 +102,10 @@
                     <li class="mb-1">
                         <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
                             href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="mb-1">
+                        <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                            href="usuario.html">Mi Perfil</a>
                     </li>
                 </ul>
             </div>

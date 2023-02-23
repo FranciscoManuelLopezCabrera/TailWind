@@ -22,7 +22,21 @@
         font-style: normal;
     }
 
-    .lousFont{
+    .lousFont {
         font-family: "Lous";
+    }
+}
+
+@layer utilities {
+    @variants responsive {
+
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
     }
 }

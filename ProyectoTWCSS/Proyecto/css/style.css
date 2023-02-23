@@ -570,7 +570,7 @@ video {
   font-style: normal;
 }
 
-.lousFont{
+.lousFont {
   font-family: "Lous";
 }
 
@@ -31567,6 +31567,15 @@ video {
   animation: showDescription 400ms linear;
 }
 
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -62412,6 +62421,15 @@ video {
 
   .sm\:hover\:animate-showdescription:hover {
     animation: showDescription 400ms linear;
+  }
+
+  .sm\:no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .sm\:no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 }
 
@@ -93261,6 +93279,15 @@ video {
   .md\:hover\:animate-showdescription:hover {
     animation: showDescription 400ms linear;
   }
+
+  .md\:no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .md\:no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -124108,6 +124135,15 @@ video {
 
   .lg\:hover\:animate-showdescription:hover {
     animation: showDescription 400ms linear;
+  }
+
+  .lg\:no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .lg\:no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 }
 
@@ -154957,6 +154993,15 @@ video {
   .xl\:hover\:animate-showdescription:hover {
     animation: showDescription 400ms linear;
   }
+
+  .xl\:no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .xl\:no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
 
 @media (min-width: 1536px) {
@@ -185804,5 +185849,14 @@ video {
 
   .\32xl\:hover\:animate-showdescription:hover {
     animation: showDescription 400ms linear;
+  }
+
+  .\32xl\:no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .\32xl\:no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 }

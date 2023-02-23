@@ -10,7 +10,7 @@
 
 <!--Header-->
 
-<body>
+<body class="no-scrollbar">
     <nav class="relative px-4 py-4 flex justify-between items-center bg-white">
         <a class="text-3xl font-bold leading-none" href="/pages/principal2.html">
             <p class="brushFont text-4xl">📖 TodoDocumentos</p>
@@ -23,7 +23,7 @@
             </button>
         </div>
         <ul
-            class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
+            class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6">
             <li><a class="text-sm text-gray-700 hover:text-gray-500" href="principal2.html">Sobre nosotros</a></li>
             <li class="text-gray-300">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
@@ -58,7 +58,9 @@
             </li>
             <li><a class="text-sm text-gray-700" href="contacto.html">Contacto</a></li>
         </ul>
-        <a class="hidden lg:inline-block lg:ml-auto lg:mr-3" href="usuario.html"><img src="/img/perfil.png"
+        <a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-gray-100  text-sm text-gray-900 font-bold  rounded-xl"
+        href="usuario.html">Paquito</a>
+        <a class="hidden lg:inline-block lg:mr-3" href="usuario.html"><img src="/img/perfil.png"
                 width="60px"></a>
     </nav>
     <div class="navbar-menu relative z-50 hidden">
@@ -100,6 +102,10 @@
                     <li class="mb-1">
                         <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
                             href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="mb-1">
+                        <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                            href="usuario.html">Mi Perfil</a>
                     </li>
                 </ul>
             </div>
@@ -160,8 +166,9 @@
 </script>
 
 <!--cartas-->
-<div class="flex">
-    <div class="inline-block px-5 py-5 transition duration-300 transform hover:scale-105">
+<div class="grid md:grid-cols-2 lg:grid-cols-3 content-center sm:grid-cols-1 ">
+
+    <div class="inline-block py-5 transition duration-300 transform hover:scale-105">
         <div class="flex justify-center">
             <div class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
                 <a href="#!" data-te-ripple-init data-te-ripple-color="light">
@@ -189,7 +196,7 @@
         </div>
     </div>
 
-    <div class="inline-block px-5 py-5 transition duration-300 transform hover:scale-105">
+    <div class="inline-block py-5 transition duration-300 transform hover:scale-105">
         <div class="flex justify-center">
             <div class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
                 <a href="#!" data-te-ripple-init data-te-ripple-color="light">
@@ -217,7 +224,91 @@
         </div>
     </div>
 
-    <div class="inline-block px-5 py-5 transition duration-300 transform hover:scale-105">
+    <div class="inline-block py-5 transition duration-300 transform hover:scale-105">
+        <div class="flex justify-center">
+            <div class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
+                <a href="#!" data-te-ripple-init data-te-ripple-color="light">
+                    <img class="rounded-t-lg" src="" alt="foto" />
+                </a>
+                <div class="p-6">
+                    <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+                        Titulo
+                    </h5>
+                    <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+                        mucho texto mucho texto mucho texto mucho texto mucho texto mucho texto mucho texto mucho texto
+                        mucho
+                        texto mucho texto mucho texto mucho texto mucho texto mucho texto mucho texto mucho texto mucho
+                        texto
+                        mucho texto mucho texto
+                    </p>
+                    <div class="flex justify-center">
+                        <button type="button"
+                            class="px-4 py-3 mb-2 text-xs text-center text-white font-semibold bg-blue-600 hover:bg-blue-700 rounded-xl">
+                            Añadir
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="inline-block py-5 transition duration-300 transform hover:scale-105">
+        <div class="flex justify-center">
+            <div class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
+                <a href="#!" data-te-ripple-init data-te-ripple-color="light">
+                    <img class="rounded-t-lg" src="" alt="foto" />
+                </a>
+                <div class="p-6">
+                    <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+                        Titulo
+                    </h5>
+                    <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+                        mucho texto mucho texto mucho texto mucho texto mucho texto mucho texto mucho texto mucho texto
+                        mucho
+                        texto mucho texto mucho texto mucho texto mucho texto mucho texto mucho texto mucho texto mucho
+                        texto
+                        mucho texto mucho texto
+                    </p>
+                    <div class="flex justify-center">
+                        <button type="button"
+                            class="px-4 py-3 mb-2 text-xs text-center text-white font-semibold bg-blue-600 hover:bg-blue-700 rounded-xl">
+                            Añadir
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="inline-block py-5 transition duration-300 transform hover:scale-105">
+        <div class="flex justify-center">
+            <div class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
+                <a href="#!" data-te-ripple-init data-te-ripple-color="light">
+                    <img class="rounded-t-lg" src="" alt="foto" />
+                </a>
+                <div class="p-6">
+                    <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+                        Titulo
+                    </h5>
+                    <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+                        mucho texto mucho texto mucho texto mucho texto mucho texto mucho texto mucho texto mucho texto
+                        mucho
+                        texto mucho texto mucho texto mucho texto mucho texto mucho texto mucho texto mucho texto mucho
+                        texto
+                        mucho texto mucho texto
+                    </p>
+                    <div class="flex justify-center">
+                        <button type="button"
+                            class="px-4 py-3 mb-2 text-xs text-center text-white font-semibold bg-blue-600 hover:bg-blue-700 rounded-xl">
+                            Añadir
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="inline-block py-5 transition duration-300 transform hover:scale-105">
         <div class="flex justify-center">
             <div class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
                 <a href="#!" data-te-ripple-init data-te-ripple-color="light">
