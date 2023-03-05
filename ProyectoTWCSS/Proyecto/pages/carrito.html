@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Literatura</title>
+    <title>Mi perfil</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
 </head>
 
@@ -33,7 +34,7 @@
                         d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
                 </svg>
             </li>
-            <li><a class="text-sm text-blue-700" href="literatura.html">Literatura</a></li>
+            <li><a class="text-sm text-gray-700 hover:text-gray-500" href="literatura.html">Literatura</a></li>
             <li class="text-gray-300">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
                     viewBox="0 0 24 24">
@@ -57,7 +58,7 @@
                         d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
                 </svg>
             </li>
-            <li><a class="text-sm text-gray-700" href="contacto.html">Contacto</a></li>
+            <li><a class="text-sm text-gray-700 hover:text-gray-500" href="contacto.html">Contacto</a></li>
         </ul>
         <a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-gray-100  text-sm text-gray-900 font-bold  rounded-xl"
             href="usuario.html">Paquito</a>
@@ -169,250 +170,155 @@
     });
 </script>
 
-<!--Cartas-->
-
-<div class="grid md:grid-cols-2 lg:grid-cols-4 content-center sm:grid-cols-1 ">
-
-    <div class="inline-block py-8 transition duration-300 transform hover:scale-105">
-        <div class="flex justify-center">
-            <div class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
-                <a href="https://media.revistagq.com/photos/5e78e4e85bcabb0008f4db8a/master/w_1581,h_2481,c_limit/mejores-libros-3-amazon.jpg"
-                    data-te-ripple-init data-te-ripple-color="light">
-                    <img class="rounded-t-lg"
-                        src="https://media.revistagq.com/photos/5e78e4e85bcabb0008f4db8a/master/w_1581,h_2481,c_limit/mejores-libros-3-amazon.jpg">
-                </a>
-                <div class="p-6">
-                    <h2 class="mb-2 text-xl leading-tight font-bold dark:text-neutral-50">
-                        Las mil y una noches
-                    </h2>
-                    <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-                        Las mil y una noches es una recopilación
-                        medieval de cuentos orientales tradicionales.
-                        <br><br>
-                        La obra fue tomando forma durante el transcurso de varios siglos con las contribuciones de
-                        diferentes escritores y traductores del Oriente Próximo.
-                    </p>
-                    <div class="flex justify-center">
-                        <a href="carrito.html"
-                            class="px-4 py-3 mb-2 text-xl text-center text-white font-semibold bg-blue-600 hover:bg-blue-700 rounded-xl">
-                            Añadir
-                        </a>
+<!--Carrito-->
+<div class="flex justify-center">
+    <div class="flex flex-col max-w-3xl p-6 space-y-4 sm:p-10 dark:bg-gray-900 dark:text-gray-100">
+        <h2 class="text-xl font-semibold">Mi carrito</h2>
+        <ul class="flex flex-col divide-y divide-gray-700">
+            <li class="flex flex-col py-6 sm:flex-row sm:justify-between">
+                <div class="flex w-full space-x-2 sm:space-x-4">
+                    <img class="flex-shrink-0 object-cover w-20 h-20 dark:border-transparent rounded outline-none sm:w-32 sm:h-32 dark:bg-gray-500"
+                        src="https://www.tebeosfera.com/T3content/img/T3_numeros/2/7/berserk_glenat_edt_2013_27.jpg">
+                    <div class="flex flex-col justify-between w-full pb-4">
+                        <div class="flex justify-between w-full pb-2 space-x-2">
+                            <div class="space-y-1">
+                                <h3 class="text-lg font-semibold leading-snug sm:pr-8">Berserk</h3>
+                                <p class="text-sm dark:text-gray-400">Tomo nº1</p>
+                            </div>
+                            <div class="text-right">
+                                <p class="text-lg font-semibold">3,99€</p>
+                                <p class="text-sm line-through dark:text-gray-600">12,59€</p>
+                            </div>
+                        </div>
+                        <div class="flex text-sm divide-x">
+                            <button type="button" class="flex items-center px-2 py-1 pl-0 space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                    class="w-4 h-4 fill-current">
+                                    <path
+                                        d="M96,472a23.82,23.82,0,0,0,23.579,24H392.421A23.82,23.82,0,0,0,416,472V152H96Zm32-288H384V464H128Z">
+                                    </path>
+                                    <rect width="32" height="200" x="168" y="216"></rect>
+                                    <rect width="32" height="200" x="240" y="216"></rect>
+                                    <rect width="32" height="200" x="312" y="216"></rect>
+                                    <path
+                                        d="M328,88V40c0-13.458-9.488-24-21.6-24H205.6C193.488,16,184,26.542,184,40V88H64v32H448V88ZM216,48h80V88H216Z">
+                                    </path>
+                                </svg>
+                                <span>Eliminar</span>
+                            </button>
+                            <button type="button" class="flex items-center px-2 py-1 space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                    class="w-4 h-4 fill-current">
+                                    <path
+                                        d="M453.122,79.012a128,128,0,0,0-181.087.068l-15.511,15.7L241.142,79.114l-.1-.1a128,128,0,0,0-181.02,0l-6.91,6.91a128,128,0,0,0,0,181.019L235.485,449.314l20.595,21.578.491-.492.533.533L276.4,450.574,460.032,266.94a128.147,128.147,0,0,0,0-181.019ZM437.4,244.313,256.571,425.146,75.738,244.313a96,96,0,0,1,0-135.764l6.911-6.91a96,96,0,0,1,135.713-.051l38.093,38.787,38.274-38.736a96,96,0,0,1,135.765,0l6.91,6.909A96.11,96.11,0,0,1,437.4,244.313Z">
+                                    </path>
+                                </svg>
+                                <span>Añadir a favoritos</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="inline-block py-8 transition duration-300 transform hover:scale-105">
-        <div class="flex justify-center">
-            <div class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
-                <a href="https://media.revistagq.com/photos/5e78e4e85bcabb0008f4db8a/master/w_1581,h_2481,c_limit/mejores-libros-3-amazon.jpg"
-                    data-te-ripple-init data-te-ripple-color="light">
-                    <img class="rounded-t-lg"
+            </li>
+            <li class="flex flex-col py-6 sm:flex-row sm:justify-between">
+                <div class="flex w-full space-x-2 sm:space-x-4">
+                    <img class="flex-shrink-0 object-cover w-20 h-20 dark:border-transparent rounded outline-none sm:w-32 sm:h-32 dark:bg-gray-500"
                         src="https://media.revistagq.com/photos/5e78e4e85bcabb0008f4db8a/master/w_1581,h_2481,c_limit/mejores-libros-3-amazon.jpg">
-                </a>
-                <div class="p-6">
-                    <h2 class="mb-2 text-xl leading-tight font-bold dark:text-neutral-50">
-                        Las mil y una noches
-                    </h2>
-                    <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-                        Las mil y una noches es una recopilación
-                        medieval de cuentos orientales tradicionales.
-                        <br><br>
-                        La obra fue tomando forma durante el transcurso de varios siglos con las contribuciones de
-                        diferentes escritores y traductores del Oriente Próximo.
-                    </p>
-                    <div class="flex justify-center">
-                        <a href="carrito.html"
-                            class="px-4 py-3 mb-2 text-xl text-center text-white font-semibold bg-blue-600 hover:bg-blue-700 rounded-xl">
-                            Añadir
-                        </a>
+                    <div class="flex flex-col justify-between w-full pb-4">
+                        <div class="flex justify-between w-full pb-2 space-x-2">
+                            <div class="space-y-1">
+                                <h3 class="text-lg font-semibold leading-snug sm:pr-8">Las mil y una noches</h3>
+                            </div>
+                            <div class="text-right">
+                                <p class="text-lg font-semibold">1,99€</p>
+                                <p class="text-sm line-through dark:text-gray-600">9,99€</p>
+                            </div>
+                        </div>
+                        <div class="flex text-sm divide-x">
+                            <button type="button" class="flex items-center px-2 py-1 pl-0 space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                    class="w-4 h-4 fill-current">
+                                    <path
+                                        d="M96,472a23.82,23.82,0,0,0,23.579,24H392.421A23.82,23.82,0,0,0,416,472V152H96Zm32-288H384V464H128Z">
+                                    </path>
+                                    <rect width="32" height="200" x="168" y="216"></rect>
+                                    <rect width="32" height="200" x="240" y="216"></rect>
+                                    <rect width="32" height="200" x="312" y="216"></rect>
+                                    <path
+                                        d="M328,88V40c0-13.458-9.488-24-21.6-24H205.6C193.488,16,184,26.542,184,40V88H64v32H448V88ZM216,48h80V88H216Z">
+                                    </path>
+                                </svg>
+                                <span>Eliminar</span>
+                            </button>
+                            <button type="button" class="flex items-center px-2 py-1 space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                    class="w-4 h-4 fill-current">
+                                    <path
+                                        d="M453.122,79.012a128,128,0,0,0-181.087.068l-15.511,15.7L241.142,79.114l-.1-.1a128,128,0,0,0-181.02,0l-6.91,6.91a128,128,0,0,0,0,181.019L235.485,449.314l20.595,21.578.491-.492.533.533L276.4,450.574,460.032,266.94a128.147,128.147,0,0,0,0-181.019ZM437.4,244.313,256.571,425.146,75.738,244.313a96,96,0,0,1,0-135.764l6.911-6.91a96,96,0,0,1,135.713-.051l38.093,38.787,38.274-38.736a96,96,0,0,1,135.765,0l6.91,6.909A96.11,96.11,0,0,1,437.4,244.313Z">
+                                    </path>
+                                </svg>
+                                <span>Añadir a favoritos</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="inline-block py-8 transition duration-300 transform hover:scale-105">
-        <div class="flex justify-center">
-            <div class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
-                <a href="https://media.revistagq.com/photos/5e78e4e85bcabb0008f4db8a/master/w_1581,h_2481,c_limit/mejores-libros-3-amazon.jpg"
-                    data-te-ripple-init data-te-ripple-color="light">
-                    <img class="rounded-t-lg"
-                        src="https://media.revistagq.com/photos/5e78e4e85bcabb0008f4db8a/master/w_1581,h_2481,c_limit/mejores-libros-3-amazon.jpg">
-                </a>
-                <div class="p-6">
-                    <h2 class="mb-2 text-xl leading-tight font-bold dark:text-neutral-50">
-                        Las mil y una noches
-                    </h2>
-                    <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-                        Las mil y una noches es una recopilación
-                        medieval de cuentos orientales tradicionales.
-                        <br><br>
-                        La obra fue tomando forma durante el transcurso de varios siglos con las contribuciones de
-                        diferentes escritores y traductores del Oriente Próximo.
-                    </p>
-                    <div class="flex justify-center">
-                        <a href="carrito.html"
-                            class="px-4 py-3 mb-2 text-xl text-center text-white font-semibold bg-blue-600 hover:bg-blue-700 rounded-xl">
-                            Añadir
-                        </a>
+            </li>
+            <li class="flex flex-col py-6 sm:flex-row sm:justify-between">
+                <div class="flex w-full space-x-2 sm:space-x-4">
+                    <img class="flex-shrink-0 object-cover w-20 h-20 dark:border-transparent rounded outline-none sm:w-32 sm:h-32 dark:bg-gray-500"
+                        src="https://www.normaeditorial.com/upload/media/albumes/0001/02/7097963080922dca3edb3e41b1b2f3f267d0705f.jpeg">
+                    <div class="flex flex-col justify-between w-full pb-4">
+                        <div class="flex justify-between w-full pb-2 space-x-2">
+                            <div class="space-y-1">
+                                <h3 class="text-lg font-semibold leading-snug sm:pr-8">Neon Genesis Evangelion</h3>
+                                <p class="text-sm dark:text-gray-400">Tomo nº1</p>
+                            </div>
+                            <div class="text-right">
+                                <p class="text-lg font-semibold">3.99€</p>
+                                <p class="text-sm line-through dark:text-gray-600">15.99€</p>
+                            </div>
+                        </div>
+                        <div class="flex text-sm divide-x">
+                            <button type="button" class="flex items-center px-2 py-1 pl-0 space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                    class="w-4 h-4 fill-current">
+                                    <path
+                                        d="M96,472a23.82,23.82,0,0,0,23.579,24H392.421A23.82,23.82,0,0,0,416,472V152H96Zm32-288H384V464H128Z">
+                                    </path>
+                                    <rect width="32" height="200" x="168" y="216"></rect>
+                                    <rect width="32" height="200" x="240" y="216"></rect>
+                                    <rect width="32" height="200" x="312" y="216"></rect>
+                                    <path
+                                        d="M328,88V40c0-13.458-9.488-24-21.6-24H205.6C193.488,16,184,26.542,184,40V88H64v32H448V88ZM216,48h80V88H216Z">
+                                    </path>
+                                </svg>
+                                <span>Eliminar</span>
+                            </button>
+                            <button type="button" class="flex items-center px-2 py-1 space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                    class="w-4 h-4 fill-current">
+                                    <path
+                                        d="M453.122,79.012a128,128,0,0,0-181.087.068l-15.511,15.7L241.142,79.114l-.1-.1a128,128,0,0,0-181.02,0l-6.91,6.91a128,128,0,0,0,0,181.019L235.485,449.314l20.595,21.578.491-.492.533.533L276.4,450.574,460.032,266.94a128.147,128.147,0,0,0,0-181.019ZM437.4,244.313,256.571,425.146,75.738,244.313a96,96,0,0,1,0-135.764l6.911-6.91a96,96,0,0,1,135.713-.051l38.093,38.787,38.274-38.736a96,96,0,0,1,135.765,0l6.91,6.909A96.11,96.11,0,0,1,437.4,244.313Z">
+                                    </path>
+                                </svg>
+                                <span>Añadir a favoritos</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </li>
+        </ul>
+        <div class="flex justify-center space-y-1 text-right">
+            <p>Precio total:
+                <span class="font-semibold">9.97€</span>
+            </p>
+        </div>
+        <div class="flex justify-center space-x-4">
+            <button type="button"
+                class="px-6 py-2 border rounded-md dark:bg-violet-400 dark:text-gray-900 dark:border-violet-400">
+                Proceder al pago
+            </button>
         </div>
     </div>
-
-    <div class="inline-block py-8 transition duration-300 transform hover:scale-105">
-        <div class="flex justify-center">
-            <div class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
-                <a href="https://media.revistagq.com/photos/5e78e4e85bcabb0008f4db8a/master/w_1581,h_2481,c_limit/mejores-libros-3-amazon.jpg"
-                    data-te-ripple-init data-te-ripple-color="light">
-                    <img class="rounded-t-lg"
-                        src="https://media.revistagq.com/photos/5e78e4e85bcabb0008f4db8a/master/w_1581,h_2481,c_limit/mejores-libros-3-amazon.jpg">
-                </a>
-                <div class="p-6">
-                    <h2 class="mb-2 text-xl leading-tight font-bold dark:text-neutral-50">
-                        Las mil y una noches
-                    </h2>
-                    <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-                        Las mil y una noches es una recopilación
-                        medieval de cuentos orientales tradicionales.
-                        <br><br>
-                        La obra fue tomando forma durante el transcurso de varios siglos con las contribuciones de
-                        diferentes escritores y traductores del Oriente Próximo.
-                    </p>
-                    <div class="flex justify-center">
-                        <a href="carrito.html"
-                            class="px-4 py-3 mb-2 text-xl text-center text-white font-semibold bg-blue-600 hover:bg-blue-700 rounded-xl">
-                            Añadir
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="inline-block py-8 transition duration-300 transform hover:scale-105">
-        <div class="flex justify-center">
-            <div class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
-                <a href="https://media.revistagq.com/photos/5e78e4e85bcabb0008f4db8a/master/w_1581,h_2481,c_limit/mejores-libros-3-amazon.jpg"
-                    data-te-ripple-init data-te-ripple-color="light">
-                    <img class="rounded-t-lg"
-                        src="https://media.revistagq.com/photos/5e78e4e85bcabb0008f4db8a/master/w_1581,h_2481,c_limit/mejores-libros-3-amazon.jpg">
-                </a>
-                <div class="p-6">
-                    <h2 class="mb-2 text-xl leading-tight font-bold dark:text-neutral-50">
-                        Las mil y una noches
-                    </h2>
-                    <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-                        Las mil y una noches es una recopilación
-                        medieval de cuentos orientales tradicionales.
-                        <br><br>
-                        La obra fue tomando forma durante el transcurso de varios siglos con las contribuciones de
-                        diferentes escritores y traductores del Oriente Próximo.
-                    </p>
-                    <div class="flex justify-center">
-                        <a href="carrito.html"
-                            class="px-4 py-3 mb-2 text-xl text-center text-white font-semibold bg-blue-600 hover:bg-blue-700 rounded-xl">
-                            Añadir
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="inline-block py-8 transition duration-300 transform hover:scale-105">
-        <div class="flex justify-center">
-            <div class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
-                <a href="https://media.revistagq.com/photos/5e78e4e85bcabb0008f4db8a/master/w_1581,h_2481,c_limit/mejores-libros-3-amazon.jpg"
-                    data-te-ripple-init data-te-ripple-color="light">
-                    <img class="rounded-t-lg"
-                        src="https://media.revistagq.com/photos/5e78e4e85bcabb0008f4db8a/master/w_1581,h_2481,c_limit/mejores-libros-3-amazon.jpg">
-                </a>
-                <div class="p-6">
-                    <h2 class="mb-2 text-xl leading-tight font-bold dark:text-neutral-50">
-                        Las mil y una noches
-                    </h2>
-                    <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-                        Las mil y una noches es una recopilación
-                        medieval de cuentos orientales tradicionales.
-                        <br><br>
-                        La obra fue tomando forma durante el transcurso de varios siglos con las contribuciones de
-                        diferentes escritores y traductores del Oriente Próximo.
-                    </p>
-                    <div class="flex justify-center">
-                        <a href="carrito.html"
-                            class="px-4 py-3 mb-2 text-xl text-center text-white font-semibold bg-blue-600 hover:bg-blue-700 rounded-xl">
-                            Añadir
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="inline-block py-8 transition duration-300 transform hover:scale-105">
-        <div class="flex justify-center">
-            <div class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
-                <a href="https://media.revistagq.com/photos/5e78e4e85bcabb0008f4db8a/master/w_1581,h_2481,c_limit/mejores-libros-3-amazon.jpg"
-                    data-te-ripple-init data-te-ripple-color="light">
-                    <img class="rounded-t-lg"
-                        src="https://media.revistagq.com/photos/5e78e4e85bcabb0008f4db8a/master/w_1581,h_2481,c_limit/mejores-libros-3-amazon.jpg">
-                </a>
-                <div class="p-6">
-                    <h2 class="mb-2 text-xl leading-tight font-bold dark:text-neutral-50">
-                        Las mil y una noches
-                    </h2>
-                    <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-                        Las mil y una noches es una recopilación
-                        medieval de cuentos orientales tradicionales.
-                        <br><br>
-                        La obra fue tomando forma durante el transcurso de varios siglos con las contribuciones de
-                        diferentes escritores y traductores del Oriente Próximo.
-                    </p>
-                    <div class="flex justify-center">
-                        <a href="carrito.html"
-                            class="px-4 py-3 mb-2 text-xl text-center text-white font-semibold bg-blue-600 hover:bg-blue-700 rounded-xl">
-                            Añadir
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="inline-block py-8 transition duration-300 transform hover:scale-105">
-        <div class="flex justify-center">
-            <div class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
-                <a href="https://media.revistagq.com/photos/5e78e4e85bcabb0008f4db8a/master/w_1581,h_2481,c_limit/mejores-libros-3-amazon.jpg"
-                    data-te-ripple-init data-te-ripple-color="light">
-                    <img class="rounded-t-lg"
-                        src="https://media.revistagq.com/photos/5e78e4e85bcabb0008f4db8a/master/w_1581,h_2481,c_limit/mejores-libros-3-amazon.jpg">
-                </a>
-                <div class="p-6">
-                    <h2 class="mb-2 text-xl leading-tight font-bold dark:text-neutral-50">
-                        Las mil y una noches
-                    </h2>
-                    <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-                        Las mil y una noches es una recopilación
-                        medieval de cuentos orientales tradicionales.
-                        <br><br>
-                        La obra fue tomando forma durante el transcurso de varios siglos con las contribuciones de
-                        diferentes escritores y traductores del Oriente Próximo.
-                    </p>
-                    <div class="flex justify-center">
-                        <a href="carrito.html"
-                            class="px-4 py-3 mb-2 text-xl text-center text-white font-semibold bg-blue-600 hover:bg-blue-700 rounded-xl">
-                            Añadir
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
 </div>
 
 <!-- Footer -->
