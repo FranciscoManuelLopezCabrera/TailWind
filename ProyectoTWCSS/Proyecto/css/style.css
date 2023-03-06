@@ -31309,106 +31309,6 @@ video {
 }
 
 @keyframes rotateGear {
-  from {
-    transform: rotateZ(0deg);
-  }
-
-  to {
-    transform: rotateZ(360deg);
-  }
-}
-
-@keyframes fromBellow {
-  0% {
-    transform: translateY(0%);
-  }
-
-  50% {
-    transform: translateY(200%);
-  }
-
-  100% {
-    transform: translateY(0%);
-  }
-}
-
-@keyframes fromRight {
-  from {
-    transform: translateX(200%);
-  }
-
-  to {
-    transform: translateX(0%);
-  }
-}
-
-@keyframes backBanner {
-  0% {
-    background-position: 0px 0px;
-  }
-
-  100% {
-    background-position: -200px -200px;
-  }
-}
-
-@keyframes showText {
-  0% {
-    transform: translateX(-600%) scale(5,5);
-    opacity: 1;
-  }
-
-  50% {
-    transform: translateX(600%) scale(5,5);
-    opacity: 1;
-  }
-
-  75% {
-    transform: translateX(-600%) scale(5,5);
-    text-shadow: none;
-    color: transparent;
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateX(0%) scale(1,1);
-    text-shadow: 2px 2px 1px black;
-    color: white;
-    opacity: 1;
-  }
-}
-
-@keyframes showIcon {
-  from {
-    transform: translateY(-200%);
-  }
-
-  to {
-    transform: translateY(0%);
-  }
-}
-
-@keyframes showCategory {
-  from {
-    transform: translateY(-300%);
-    color: black;
-  }
-
-  to {
-    transform: translateY(0%);
-    color: white;
-  }
-}
-
-@keyframes showDescription {
-  from {
-    transform: translateX(-300%);
-    color: black;
-  }
-
-  to {
-    transform: translateX(0%);
-  }
 }
 
 .animate-none {
@@ -31431,38 +31331,6 @@ video {
   animation: bounce 1s infinite;
 }
 
-.animate-rotategear {
-  animation: rotateGear 2s infinite linear;
-}
-
-.animate-frombellow {
-  animation: fromBellow 500ms linear;
-}
-
-.animate-fromright {
-  animation: fromRight 300ms linear;
-}
-
-.animate-backbanner {
-  animation: backBanner 10s linear;
-}
-
-.animate-showtext {
-  animation: showText 10s linear;
-}
-
-.animate-showicon {
-  animation: showIcon 300ms linear;
-}
-
-.animate-showcategory {
-  animation: showCategory 400ms linear;
-}
-
-.animate-showdescription {
-  animation: showDescription 400ms linear;
-}
-
 .group:hover .group-hover\:animate-none {
   animation: none;
 }
@@ -31483,38 +31351,6 @@ video {
   animation: bounce 1s infinite;
 }
 
-.group:hover .group-hover\:animate-rotategear {
-  animation: rotateGear 2s infinite linear;
-}
-
-.group:hover .group-hover\:animate-frombellow {
-  animation: fromBellow 500ms linear;
-}
-
-.group:hover .group-hover\:animate-fromright {
-  animation: fromRight 300ms linear;
-}
-
-.group:hover .group-hover\:animate-backbanner {
-  animation: backBanner 10s linear;
-}
-
-.group:hover .group-hover\:animate-showtext {
-  animation: showText 10s linear;
-}
-
-.group:hover .group-hover\:animate-showicon {
-  animation: showIcon 300ms linear;
-}
-
-.group:hover .group-hover\:animate-showcategory {
-  animation: showCategory 400ms linear;
-}
-
-.group:hover .group-hover\:animate-showdescription {
-  animation: showDescription 400ms linear;
-}
-
 .hover\:animate-none:hover {
   animation: none;
 }
@@ -31533,38 +31369,6 @@ video {
 
 .hover\:animate-bounce:hover {
   animation: bounce 1s infinite;
-}
-
-.hover\:animate-rotategear:hover {
-  animation: rotateGear 2s infinite linear;
-}
-
-.hover\:animate-frombellow:hover {
-  animation: fromBellow 500ms linear;
-}
-
-.hover\:animate-fromright:hover {
-  animation: fromRight 300ms linear;
-}
-
-.hover\:animate-backbanner:hover {
-  animation: backBanner 10s linear;
-}
-
-.hover\:animate-showtext:hover {
-  animation: showText 10s linear;
-}
-
-.hover\:animate-showicon:hover {
-  animation: showIcon 300ms linear;
-}
-
-.hover\:animate-showcategory:hover {
-  animation: showCategory 400ms linear;
-}
-
-.hover\:animate-showdescription:hover {
-  animation: showDescription 400ms linear;
 }
 
 .no-scrollbar::-webkit-scrollbar {
@@ -62287,38 +62091,6 @@ video {
     animation: bounce 1s infinite;
   }
 
-  .sm\:animate-rotategear {
-    animation: rotateGear 2s infinite linear;
-  }
-
-  .sm\:animate-frombellow {
-    animation: fromBellow 500ms linear;
-  }
-
-  .sm\:animate-fromright {
-    animation: fromRight 300ms linear;
-  }
-
-  .sm\:animate-backbanner {
-    animation: backBanner 10s linear;
-  }
-
-  .sm\:animate-showtext {
-    animation: showText 10s linear;
-  }
-
-  .sm\:animate-showicon {
-    animation: showIcon 300ms linear;
-  }
-
-  .sm\:animate-showcategory {
-    animation: showCategory 400ms linear;
-  }
-
-  .sm\:animate-showdescription {
-    animation: showDescription 400ms linear;
-  }
-
   .group:hover .sm\:group-hover\:animate-none {
     animation: none;
   }
@@ -62339,38 +62111,6 @@ video {
     animation: bounce 1s infinite;
   }
 
-  .group:hover .sm\:group-hover\:animate-rotategear {
-    animation: rotateGear 2s infinite linear;
-  }
-
-  .group:hover .sm\:group-hover\:animate-frombellow {
-    animation: fromBellow 500ms linear;
-  }
-
-  .group:hover .sm\:group-hover\:animate-fromright {
-    animation: fromRight 300ms linear;
-  }
-
-  .group:hover .sm\:group-hover\:animate-backbanner {
-    animation: backBanner 10s linear;
-  }
-
-  .group:hover .sm\:group-hover\:animate-showtext {
-    animation: showText 10s linear;
-  }
-
-  .group:hover .sm\:group-hover\:animate-showicon {
-    animation: showIcon 300ms linear;
-  }
-
-  .group:hover .sm\:group-hover\:animate-showcategory {
-    animation: showCategory 400ms linear;
-  }
-
-  .group:hover .sm\:group-hover\:animate-showdescription {
-    animation: showDescription 400ms linear;
-  }
-
   .sm\:hover\:animate-none:hover {
     animation: none;
   }
@@ -62389,38 +62129,6 @@ video {
 
   .sm\:hover\:animate-bounce:hover {
     animation: bounce 1s infinite;
-  }
-
-  .sm\:hover\:animate-rotategear:hover {
-    animation: rotateGear 2s infinite linear;
-  }
-
-  .sm\:hover\:animate-frombellow:hover {
-    animation: fromBellow 500ms linear;
-  }
-
-  .sm\:hover\:animate-fromright:hover {
-    animation: fromRight 300ms linear;
-  }
-
-  .sm\:hover\:animate-backbanner:hover {
-    animation: backBanner 10s linear;
-  }
-
-  .sm\:hover\:animate-showtext:hover {
-    animation: showText 10s linear;
-  }
-
-  .sm\:hover\:animate-showicon:hover {
-    animation: showIcon 300ms linear;
-  }
-
-  .sm\:hover\:animate-showcategory:hover {
-    animation: showCategory 400ms linear;
-  }
-
-  .sm\:hover\:animate-showdescription:hover {
-    animation: showDescription 400ms linear;
   }
 
   .sm\:no-scrollbar::-webkit-scrollbar {
@@ -93144,38 +92852,6 @@ video {
     animation: bounce 1s infinite;
   }
 
-  .md\:animate-rotategear {
-    animation: rotateGear 2s infinite linear;
-  }
-
-  .md\:animate-frombellow {
-    animation: fromBellow 500ms linear;
-  }
-
-  .md\:animate-fromright {
-    animation: fromRight 300ms linear;
-  }
-
-  .md\:animate-backbanner {
-    animation: backBanner 10s linear;
-  }
-
-  .md\:animate-showtext {
-    animation: showText 10s linear;
-  }
-
-  .md\:animate-showicon {
-    animation: showIcon 300ms linear;
-  }
-
-  .md\:animate-showcategory {
-    animation: showCategory 400ms linear;
-  }
-
-  .md\:animate-showdescription {
-    animation: showDescription 400ms linear;
-  }
-
   .group:hover .md\:group-hover\:animate-none {
     animation: none;
   }
@@ -93196,38 +92872,6 @@ video {
     animation: bounce 1s infinite;
   }
 
-  .group:hover .md\:group-hover\:animate-rotategear {
-    animation: rotateGear 2s infinite linear;
-  }
-
-  .group:hover .md\:group-hover\:animate-frombellow {
-    animation: fromBellow 500ms linear;
-  }
-
-  .group:hover .md\:group-hover\:animate-fromright {
-    animation: fromRight 300ms linear;
-  }
-
-  .group:hover .md\:group-hover\:animate-backbanner {
-    animation: backBanner 10s linear;
-  }
-
-  .group:hover .md\:group-hover\:animate-showtext {
-    animation: showText 10s linear;
-  }
-
-  .group:hover .md\:group-hover\:animate-showicon {
-    animation: showIcon 300ms linear;
-  }
-
-  .group:hover .md\:group-hover\:animate-showcategory {
-    animation: showCategory 400ms linear;
-  }
-
-  .group:hover .md\:group-hover\:animate-showdescription {
-    animation: showDescription 400ms linear;
-  }
-
   .md\:hover\:animate-none:hover {
     animation: none;
   }
@@ -93246,38 +92890,6 @@ video {
 
   .md\:hover\:animate-bounce:hover {
     animation: bounce 1s infinite;
-  }
-
-  .md\:hover\:animate-rotategear:hover {
-    animation: rotateGear 2s infinite linear;
-  }
-
-  .md\:hover\:animate-frombellow:hover {
-    animation: fromBellow 500ms linear;
-  }
-
-  .md\:hover\:animate-fromright:hover {
-    animation: fromRight 300ms linear;
-  }
-
-  .md\:hover\:animate-backbanner:hover {
-    animation: backBanner 10s linear;
-  }
-
-  .md\:hover\:animate-showtext:hover {
-    animation: showText 10s linear;
-  }
-
-  .md\:hover\:animate-showicon:hover {
-    animation: showIcon 300ms linear;
-  }
-
-  .md\:hover\:animate-showcategory:hover {
-    animation: showCategory 400ms linear;
-  }
-
-  .md\:hover\:animate-showdescription:hover {
-    animation: showDescription 400ms linear;
   }
 
   .md\:no-scrollbar::-webkit-scrollbar {
@@ -124001,38 +123613,6 @@ video {
     animation: bounce 1s infinite;
   }
 
-  .lg\:animate-rotategear {
-    animation: rotateGear 2s infinite linear;
-  }
-
-  .lg\:animate-frombellow {
-    animation: fromBellow 500ms linear;
-  }
-
-  .lg\:animate-fromright {
-    animation: fromRight 300ms linear;
-  }
-
-  .lg\:animate-backbanner {
-    animation: backBanner 10s linear;
-  }
-
-  .lg\:animate-showtext {
-    animation: showText 10s linear;
-  }
-
-  .lg\:animate-showicon {
-    animation: showIcon 300ms linear;
-  }
-
-  .lg\:animate-showcategory {
-    animation: showCategory 400ms linear;
-  }
-
-  .lg\:animate-showdescription {
-    animation: showDescription 400ms linear;
-  }
-
   .group:hover .lg\:group-hover\:animate-none {
     animation: none;
   }
@@ -124053,38 +123633,6 @@ video {
     animation: bounce 1s infinite;
   }
 
-  .group:hover .lg\:group-hover\:animate-rotategear {
-    animation: rotateGear 2s infinite linear;
-  }
-
-  .group:hover .lg\:group-hover\:animate-frombellow {
-    animation: fromBellow 500ms linear;
-  }
-
-  .group:hover .lg\:group-hover\:animate-fromright {
-    animation: fromRight 300ms linear;
-  }
-
-  .group:hover .lg\:group-hover\:animate-backbanner {
-    animation: backBanner 10s linear;
-  }
-
-  .group:hover .lg\:group-hover\:animate-showtext {
-    animation: showText 10s linear;
-  }
-
-  .group:hover .lg\:group-hover\:animate-showicon {
-    animation: showIcon 300ms linear;
-  }
-
-  .group:hover .lg\:group-hover\:animate-showcategory {
-    animation: showCategory 400ms linear;
-  }
-
-  .group:hover .lg\:group-hover\:animate-showdescription {
-    animation: showDescription 400ms linear;
-  }
-
   .lg\:hover\:animate-none:hover {
     animation: none;
   }
@@ -124103,38 +123651,6 @@ video {
 
   .lg\:hover\:animate-bounce:hover {
     animation: bounce 1s infinite;
-  }
-
-  .lg\:hover\:animate-rotategear:hover {
-    animation: rotateGear 2s infinite linear;
-  }
-
-  .lg\:hover\:animate-frombellow:hover {
-    animation: fromBellow 500ms linear;
-  }
-
-  .lg\:hover\:animate-fromright:hover {
-    animation: fromRight 300ms linear;
-  }
-
-  .lg\:hover\:animate-backbanner:hover {
-    animation: backBanner 10s linear;
-  }
-
-  .lg\:hover\:animate-showtext:hover {
-    animation: showText 10s linear;
-  }
-
-  .lg\:hover\:animate-showicon:hover {
-    animation: showIcon 300ms linear;
-  }
-
-  .lg\:hover\:animate-showcategory:hover {
-    animation: showCategory 400ms linear;
-  }
-
-  .lg\:hover\:animate-showdescription:hover {
-    animation: showDescription 400ms linear;
   }
 
   .lg\:no-scrollbar::-webkit-scrollbar {
@@ -154858,38 +154374,6 @@ video {
     animation: bounce 1s infinite;
   }
 
-  .xl\:animate-rotategear {
-    animation: rotateGear 2s infinite linear;
-  }
-
-  .xl\:animate-frombellow {
-    animation: fromBellow 500ms linear;
-  }
-
-  .xl\:animate-fromright {
-    animation: fromRight 300ms linear;
-  }
-
-  .xl\:animate-backbanner {
-    animation: backBanner 10s linear;
-  }
-
-  .xl\:animate-showtext {
-    animation: showText 10s linear;
-  }
-
-  .xl\:animate-showicon {
-    animation: showIcon 300ms linear;
-  }
-
-  .xl\:animate-showcategory {
-    animation: showCategory 400ms linear;
-  }
-
-  .xl\:animate-showdescription {
-    animation: showDescription 400ms linear;
-  }
-
   .group:hover .xl\:group-hover\:animate-none {
     animation: none;
   }
@@ -154910,38 +154394,6 @@ video {
     animation: bounce 1s infinite;
   }
 
-  .group:hover .xl\:group-hover\:animate-rotategear {
-    animation: rotateGear 2s infinite linear;
-  }
-
-  .group:hover .xl\:group-hover\:animate-frombellow {
-    animation: fromBellow 500ms linear;
-  }
-
-  .group:hover .xl\:group-hover\:animate-fromright {
-    animation: fromRight 300ms linear;
-  }
-
-  .group:hover .xl\:group-hover\:animate-backbanner {
-    animation: backBanner 10s linear;
-  }
-
-  .group:hover .xl\:group-hover\:animate-showtext {
-    animation: showText 10s linear;
-  }
-
-  .group:hover .xl\:group-hover\:animate-showicon {
-    animation: showIcon 300ms linear;
-  }
-
-  .group:hover .xl\:group-hover\:animate-showcategory {
-    animation: showCategory 400ms linear;
-  }
-
-  .group:hover .xl\:group-hover\:animate-showdescription {
-    animation: showDescription 400ms linear;
-  }
-
   .xl\:hover\:animate-none:hover {
     animation: none;
   }
@@ -154960,38 +154412,6 @@ video {
 
   .xl\:hover\:animate-bounce:hover {
     animation: bounce 1s infinite;
-  }
-
-  .xl\:hover\:animate-rotategear:hover {
-    animation: rotateGear 2s infinite linear;
-  }
-
-  .xl\:hover\:animate-frombellow:hover {
-    animation: fromBellow 500ms linear;
-  }
-
-  .xl\:hover\:animate-fromright:hover {
-    animation: fromRight 300ms linear;
-  }
-
-  .xl\:hover\:animate-backbanner:hover {
-    animation: backBanner 10s linear;
-  }
-
-  .xl\:hover\:animate-showtext:hover {
-    animation: showText 10s linear;
-  }
-
-  .xl\:hover\:animate-showicon:hover {
-    animation: showIcon 300ms linear;
-  }
-
-  .xl\:hover\:animate-showcategory:hover {
-    animation: showCategory 400ms linear;
-  }
-
-  .xl\:hover\:animate-showdescription:hover {
-    animation: showDescription 400ms linear;
   }
 
   .xl\:no-scrollbar::-webkit-scrollbar {
@@ -185715,38 +185135,6 @@ video {
     animation: bounce 1s infinite;
   }
 
-  .\32xl\:animate-rotategear {
-    animation: rotateGear 2s infinite linear;
-  }
-
-  .\32xl\:animate-frombellow {
-    animation: fromBellow 500ms linear;
-  }
-
-  .\32xl\:animate-fromright {
-    animation: fromRight 300ms linear;
-  }
-
-  .\32xl\:animate-backbanner {
-    animation: backBanner 10s linear;
-  }
-
-  .\32xl\:animate-showtext {
-    animation: showText 10s linear;
-  }
-
-  .\32xl\:animate-showicon {
-    animation: showIcon 300ms linear;
-  }
-
-  .\32xl\:animate-showcategory {
-    animation: showCategory 400ms linear;
-  }
-
-  .\32xl\:animate-showdescription {
-    animation: showDescription 400ms linear;
-  }
-
   .group:hover .\32xl\:group-hover\:animate-none {
     animation: none;
   }
@@ -185767,38 +185155,6 @@ video {
     animation: bounce 1s infinite;
   }
 
-  .group:hover .\32xl\:group-hover\:animate-rotategear {
-    animation: rotateGear 2s infinite linear;
-  }
-
-  .group:hover .\32xl\:group-hover\:animate-frombellow {
-    animation: fromBellow 500ms linear;
-  }
-
-  .group:hover .\32xl\:group-hover\:animate-fromright {
-    animation: fromRight 300ms linear;
-  }
-
-  .group:hover .\32xl\:group-hover\:animate-backbanner {
-    animation: backBanner 10s linear;
-  }
-
-  .group:hover .\32xl\:group-hover\:animate-showtext {
-    animation: showText 10s linear;
-  }
-
-  .group:hover .\32xl\:group-hover\:animate-showicon {
-    animation: showIcon 300ms linear;
-  }
-
-  .group:hover .\32xl\:group-hover\:animate-showcategory {
-    animation: showCategory 400ms linear;
-  }
-
-  .group:hover .\32xl\:group-hover\:animate-showdescription {
-    animation: showDescription 400ms linear;
-  }
-
   .\32xl\:hover\:animate-none:hover {
     animation: none;
   }
@@ -185817,38 +185173,6 @@ video {
 
   .\32xl\:hover\:animate-bounce:hover {
     animation: bounce 1s infinite;
-  }
-
-  .\32xl\:hover\:animate-rotategear:hover {
-    animation: rotateGear 2s infinite linear;
-  }
-
-  .\32xl\:hover\:animate-frombellow:hover {
-    animation: fromBellow 500ms linear;
-  }
-
-  .\32xl\:hover\:animate-fromright:hover {
-    animation: fromRight 300ms linear;
-  }
-
-  .\32xl\:hover\:animate-backbanner:hover {
-    animation: backBanner 10s linear;
-  }
-
-  .\32xl\:hover\:animate-showtext:hover {
-    animation: showText 10s linear;
-  }
-
-  .\32xl\:hover\:animate-showicon:hover {
-    animation: showIcon 300ms linear;
-  }
-
-  .\32xl\:hover\:animate-showcategory:hover {
-    animation: showCategory 400ms linear;
-  }
-
-  .\32xl\:hover\:animate-showdescription:hover {
-    animation: showDescription 400ms linear;
   }
 
   .\32xl\:no-scrollbar::-webkit-scrollbar {
